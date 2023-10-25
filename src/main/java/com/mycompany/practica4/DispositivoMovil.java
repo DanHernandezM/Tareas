@@ -8,7 +8,7 @@ package com.mycompany.practica4;
  *
  * @author nenod
  */
-public final class DispositivoMovil {
+public class DispositivoMovil {
 	
 	public float velocidadProcesador;
 	public int cargaBateria;
