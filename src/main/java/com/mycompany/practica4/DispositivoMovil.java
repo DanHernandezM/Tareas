@@ -12,8 +12,8 @@ public class DispositivoMovil {
 	
 	public float velocidadProcesador;
 	public int cargaBateria;
-	private int memoria;
-	private String sistemaOperativo;
+	protected int memoria;
+	protected String sistemaOperativo;
 	protected String marca;
 	protected String modelo;
 	
@@ -28,6 +28,10 @@ public class DispositivoMovil {
 	public int verCargaBateria() {
 		System.out.println("Queda un " + cargaBateria + "% de bateria.");
 		return cargaBateria;
-	}
+        }
+        public DispositivoMovil (int x) {       
+             System.out.println("Haré que Laptop deje de funcionar! :D");    
+         }         
+	
 	
 }
